@@ -1,0 +1,91 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+    sans-serif;
+  background-size: cover;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(
+    to right top,
+    #0e7513,
+    #0d6e11,
+    #0c680f,
+    #0b610d,
+    #0a5b0b,
+    #0a5b0b,
+    #095c0b,
+    #095c0b,
+    #09640c,
+    #0a6c0e,
+    #0a750f,
+    #0a7d10
+  );
+
+  background-repeat: no-repeat;
+  animation: infinite;
+  animation-duration: 10s;
+  animation-name: gradient;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-delay: 2s;
+}
+/* @keyframes gradient {
+  0% {
+    background-image: linear-gradient(
+      to right top,
+      #0e7513,
+      #0d6e11,
+      #0c680f,
+      #0b610d,
+      #0a5b0b,
+      #0a5b0b,
+      #095c0b,
+      #095c0b,
+      #09640c,
+      #0a6c0e,
+      #0a750f,
+      #0a7d10
+    );
+  }
+  100% {
+    background-image: linear-gradient(
+      to right top,
+      #0e7513,
+      #0d6e11,
+      #0c680f,
+      #0b610d,
+      #0a5b0b,
+      #0a5b0b,
+      #095c0b,
+      #095c0b,
+      #09640c,
+      #0a6c0e,
+      #0a750f,
+      #0a7d10
+    );
+  }
+} */
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
